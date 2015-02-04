@@ -18,10 +18,6 @@
 # Keep OmniGears stuff
 -keep class org.omnirom.omnigears.*
 
-# Keep du tweaks stuff
--keep class com.dirtyunicorns.dutweaks.**
--keep class com.dirtyunicorns.dutweaks.fragments.**
-
 # Keep click responders
 -keepclassmembers class com.android.settings.inputmethod.UserDictionaryAddWordActivity {
   *** onClick*(...);
